@@ -1,0 +1,43 @@
+/* Header sizes */
+h1 {
+  font-size: 36px;
+}
+h2 {font-size: 32px;}
+h3 {font-size: 28px;}
+h4 {font-size: 24px;}
+h5 {font-size: 20px;}
+h6 {font-size: 18px;}
+
+/** set base font size small so text is easy to read on small devices 
+then bump it up when the viewport is larger 
+typography across the site should scale to this value using ems **/
+
+body, div, span, aside, section, header, p {
+    font-size: 16px; 
+    line-height: 1.85em; 
+    
+}
+
+p, p:last-child {margin-bottom: 1.25em;}
+
+/* Until further notice*/
+//em {font-style: oblique;}
+
+p, ul li, ol li {line-height: 1.85em;}
+
+a, a:active, a:focus{
+    transition: all .25s ease-out;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+        transition: all .25s ease-out;
+    }
+}
+
+
+
+
+ol, ul {
+	li {margin-bottom: .5em;}
+}

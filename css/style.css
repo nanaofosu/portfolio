@@ -1,0 +1,52 @@
+/* Importing all sass files */
+/* Importing all sass files fron this folder */
+/* Header sizes */
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 32px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 24px; }
+
+h5 {
+  font-size: 20px; }
+
+h6 {
+  font-size: 18px; }
+
+/** set base font size small so text is easy to read on small devices 
+then bump it up when the viewport is larger 
+typography across the site should scale to this value using ems **/
+body, div, span, aside, section, header {
+  font-size: 16px;
+  line-height: 1.85em; }
+
+p, p:last-child {
+  margin-bottom: 1.25em; }
+
+/* Until further notice*/
+p, ul li, ol li {
+  line-height: 1.85em; }
+
+a, a:active, a:focus {
+  -webkit-transition: all .25s ease-out;
+          transition: all .25s ease-out;
+  text-decoration: none; }
+  a:hover, a:active:hover, a:focus:hover {
+    text-decoration: underline;
+    -webkit-transition: all .25s ease-out;
+            transition: all .25s ease-out; }
+
+ol li, ul li {
+  margin-bottom: .5em; }
+
+/* Importing all sass files fron this folder */
+.mypage-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: none; }
