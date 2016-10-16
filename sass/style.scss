@@ -3,3 +3,23 @@
 @import 'partials/allpartials';
 
 @import 'regions/allregions';
+
+
+
+/* RANDOM STUFF*/
+
+.welcome{
+    font-size: 100px; 
+    transition: all 1s ease-in;
+    
+    &.fade{
+        font-size: 0px;
+        transition: all 1s ease-in;
+    }
+    
+    
+}
+
+ .intro{
+            font-size: 0px;
+}

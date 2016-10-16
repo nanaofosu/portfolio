@@ -22,7 +22,7 @@ h6 {
 /** set base font size small so text is easy to read on small devices 
 then bump it up when the viewport is larger 
 typography across the site should scale to this value using ems **/
-body, div, span, aside, section, header {
+body, div, span, aside, section, header, p {
   font-size: 16px;
   line-height: 1.85em; }
 
@@ -34,13 +34,11 @@ p, ul li, ol li {
   line-height: 1.85em; }
 
 a, a:active, a:focus {
-  -webkit-transition: all .25s ease-out;
-          transition: all .25s ease-out;
+  transition: all .25s ease-out;
   text-decoration: none; }
   a:hover, a:active:hover, a:focus:hover {
     text-decoration: underline;
-    -webkit-transition: all .25s ease-out;
-            transition: all .25s ease-out; }
+    transition: all .25s ease-out; }
 
 ol li, ul li {
   margin-bottom: .5em; }
@@ -50,3 +48,16 @@ ol li, ul li {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: none; }
+
+/* RANDOM STUFF*/
+.welcome {
+  font-size: 100px;
+  transition: all 1s ease-in; }
+  .welcome.fade {
+    font-size: 0px;
+    transition: all 1s ease-in; }
+
+.intro {
+  font-size: 0px; }
+
+/*# sourceMappingURL=style.css.map */
