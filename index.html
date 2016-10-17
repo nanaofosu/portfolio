@@ -4,26 +4,48 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<!--	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>-->
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	 <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
      <!--imported by Nana -->
      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
      <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/nana.css">
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
     <!--END IMPORT-->
      
   	
 	<title>Responsive Vertical Timeline</title>
 </head>
 <body>
-	<header>
-		<h1>Responsive Vertical Timeline</h1>
-	</header>
+	<header class="container-fluid row" role="banner">  
+        <section class="mypage-header">
+          <h1 id="hi-there" class="project-name text-center">
+          <span class="welcome">Hi my name is Nana Ofosu</span>
+          <span id="intro" class="intro">Thanks for cheking out my portfolio.</span>
+          </h1>         
+        </section>
+        <div class="row">
+            <ul id="cyclelist">
+                <li>Integrity</li>
+                <li>Driven</li>
+                <li>Impressive technical skills</li>
+                <li>Willingness to learn</li>
+                <li>Problem solver</li>
+                <li>Grace under fire</li>
+                <li>People skills</li>
+                <li>Curiosity</li>
+                <li>Patience</li>
+                <li>Team Player</li>
+          </ul>  
+        </div>
+    </header>
 
 	<section id="cd-timeline" class="cd-container">
 	    
@@ -34,7 +56,7 @@
 			<div class="cd-timeline-content">
 				<h2>The Light Edge Inc</h2>
 				<p>This was my <strong>FIRST EVER PROJECT</strong></p>
-				<img src="img/tle.JPG">
+				<a href="http://thelightedge.com" target="_blank"><img src="img/tle.JPG"></a>
 				<span class="cd-date">August 2009</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -47,7 +69,7 @@
 			<div class="cd-timeline-content">
 				<h2>Willamette Nurseries</h2>
 				<p>Desinged for the 3rd largest nursery in the USA. Located in Canby, OR.</p>
-				<img src="img/tle.JPG">
+				<a href="http://willamettenurseries.com" target="_blank"><img src="img/willamette.JPG"></a>
 				<span class="cd-date">May 2012</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -60,7 +82,7 @@
 			<div class="cd-timeline-content">
 				<h2>Fashionbar Chicago</h2>
 				<p>This is was the first site designed for an up and comming fashion and model recruitment company based in Chicago</p>
-				<img src="img/tle.JPG">
+				<a href="http://fashion.guruscommunications.com" target="_blank"><img src="img/fbc.JPG"></a>
 				<span class="cd-date">November 2013</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -73,7 +95,7 @@
 			<div class="cd-timeline-content">
 				<h2>Vital Care Industries</h2>
 				<p>This was developed for a Tinley Park based medical supply company</p>
-				<img src="img/tle.JPG">
+				<a href="http://vitalcareindustries.com" target="_blank"><img src="img/vci.JPG"></a>
 				<span class="cd-date">February 2014</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -84,22 +106,22 @@
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>Title of section 5</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-				<img src="img/tle.JPG">
-				<span class="cd-date">Feb 18</span>
+				<h2>University of Chicago Biosciences Department Graduate School</h2>
+				<p>This was my first completed project at the University of Chicago</p>
+				<a href="http://bsdgrad.uchicago.edu" target="_blank"><img src="img/bsd.JPG"></a>
+				<span class="cd-date">October 2016</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
 		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
+			<div class="cd-timeline-img cd-location">
+				<img src="img/cd-icon-location.svg" alt="Location">
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>Final Section</h2>
-				<p>This is the content of the last section</p>
-				<img src="img/tle.JPG">
+				<h2>Coming Soon: Chicago ICC</h2>
+				<p>This is a colaborative project for the Chicago International Christian Church</p>
+				<img src="img/cicc.JPG">
 				<span class="cd-date">Feb 26</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
