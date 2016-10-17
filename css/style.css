@@ -1,7 +1,5 @@
 /* -------------------------------- 
-
 Primary style
-
 -------------------------------- */
 html * {
   -webkit-font-smoothing: antialiased;
@@ -37,9 +35,7 @@ h1, h2 {
 }
 
 /* -------------------------------- 
-
 Modules - reusable parts of our design
-
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -55,9 +51,7 @@ Modules - reusable parts of our design
 }
 
 /* -------------------------------- 
-
 Main components 
-
 -------------------------------- */
 header {
   height: 200px;

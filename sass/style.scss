@@ -4,23 +4,62 @@
 
 @import 'regions/allregions';
 
+*{
+    font-size: 16px;
+}
 
 
 /* RANDOM STUFF*/
 
 .welcome{
-    font-size: 40px; 
+    font-size: 70px; 
     transition: all 1s ease-in;
     
     &.fade{
         font-size: 0px;
         transition: all 1s ease-in;
-    }
-    
-    
+    }    
 }
 
  .intro{
-            font-size: 0px;
-     transition: font-size 1s ease-in-out;
+     font-size: 0px;
+     transition: all 1s ease-in;
+}
+
+body{
+    
+
+background: #bdc3c7; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #bdc3c7 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #bdc3c7 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+         
+}
+
+.mypage-header{height: 140px;}
+/* CLEAN UPS*/
+ .cd-timeline-content .cd-date{
+    color: white;
+    font-size: 20px;
+}
+
+.cd-timeline-content h2{
+    font-size: 32px;
+}
+
+.cd-timeline-content p{
+    font-size: 14px;
+}
+
+/*SPECAIL TRAITS*/
+ul{
+    &#cyclelist{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 20px;
+        li{
+            opacity: 0;
+        }
+    }
 }
