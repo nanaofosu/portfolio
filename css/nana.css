@@ -34,10 +34,12 @@ p, ul li, ol li {
   line-height: 1.85em; }
 
 a, a:active, a:focus {
+  -webkit-transition: all .25s ease-out;
   transition: all .25s ease-out;
   text-decoration: none; }
   a:hover, a:active:hover, a:focus:hover {
     text-decoration: underline;
+    -webkit-transition: all .25s ease-out;
     transition: all .25s ease-out; }
 
 ol li, ul li {
@@ -54,14 +56,17 @@ ol li, ul li {
 
 /* RANDOM STUFF*/
 .welcome {
-  font-size: 70px;
+  font-size: 4em;
+  -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in; }
   .welcome.fade {
     font-size: 0px;
+    -webkit-transition: all 1s ease-in;
     transition: all 1s ease-in; }
 
 .intro {
   font-size: 0px;
+  -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in; }
 
 body {
@@ -69,6 +74,7 @@ body {
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #bdc3c7, #2c3e50);
   /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(right, #bdc3c7, #2c3e50);
   background: linear-gradient(to left, #bdc3c7, #2c3e50);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
@@ -88,11 +94,13 @@ body {
 
 /*SPECAIL TRAITS*/
 ul#cyclelist {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   color: white;
   font-size: 20px; }
   ul#cyclelist li {
     opacity: 0; }
-
-/*# sourceMappingURL=nana.css.map */
